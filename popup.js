@@ -1,7 +1,8 @@
 const basePath = 'https://mfus.tk';
 
 chrome.tabs.query({
-  'active': true
+  'active': true,
+  'currentWindow': true
 }, tabs => {
   const currentUrl = tabs.pop().url;
   fetch(`${basePath}/short`, {
