@@ -1,6 +1,6 @@
 {
   "name": "mFus",
-  "version": "0.1",
+  "version": "0.2",
   "description": "A shortcut for mFus shortener.",
   "permissions": [
     "tabs"
